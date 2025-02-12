@@ -1,5 +1,4 @@
 .env
-load_courses.py
 
 # Python
 __pycache__/
@@ -9,7 +8,6 @@ __pycache__/
 
 # Project specific
 *.db
-*.pkl
 .env.local
 .env.*.local
 

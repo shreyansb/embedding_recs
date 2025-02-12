@@ -11,9 +11,5 @@ __pycache__/
 .env.local
 .env.*.local
 
-# Alembic
-alembic/versions/*
-!alembic/versions/.gitkeep
-
 # Poetry
 poetry.lock

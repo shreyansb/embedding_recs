@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "embedding-recs"
+version = "0.1.0"
+description = ""
+authors = ["Shreyans Bhansali <shreyansb@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+psycopg2-binary = "^2.9.10"
+sqlalchemy = "^2.0.38"
+pydantic = "^2.10.6"
+alembic = "^1.14.1"
+pgvector = "^0.3.6"
+ipython = "^8.32.0"
+litellm = "^1.60.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

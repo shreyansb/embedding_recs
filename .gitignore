@@ -1,0 +1,21 @@
+.env
+load_courses.py
+
+# Python
+__pycache__/
+
+# IDE
+.DS_Store
+
+# Project specific
+*.db
+*.pkl
+.env.local
+.env.*.local
+
+# Alembic
+alembic/versions/*
+!alembic/versions/.gitkeep
+
+# Poetry
+poetry.lock
